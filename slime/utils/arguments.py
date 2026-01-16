@@ -41,10 +41,10 @@ def get_slime_extra_args_provider(add_custom_arguments=None):
                 "--actor-num-gpus-per-node", type=int, default=8, help="Number of gpus per node for training actor"
             )
             parser.add_argument(
-                "--critic-num-nodes", type=int, default=None, help="Number of nodes for training actor"
+                "--critic-num-nodes", type=int, default=None, help="Number of nodes for training critic"
             )
             parser.add_argument(
-                "--critic-num-gpus-per-node", type=int, default=None, help="Number of gpus per node for training actor"
+                "--critic-num-gpus-per-node", type=int, default=None, help="Number of gpus per node for training critic"
             )
 
             parser.add_argument(
